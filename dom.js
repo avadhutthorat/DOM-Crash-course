@@ -111,3 +111,13 @@ let items = document.querySelector("#items");
 // let header = document.querySelector("#header-title");
 
 // container.insertBefore(newDiv1, header);
+
+/* ******************* Event listener ******************** */
+const onClickHandler = e => {
+  e.preventDefault();
+  let headerSelector = document.querySelector("#header-title");
+  headerSelector.textContent = "chnaged";
+  console.log(e);
+};
+
+document.querySelector(".click").addEventListener("click", onClickHandler);
