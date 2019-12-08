@@ -10,15 +10,15 @@
 // console.dir(document.images);
 
 /* ******************* getElementById *************************************************** */
-let headerTitle = document.getElementById("header-title");
-let header = document.getElementById("main-header");
+// let headerTitle = document.getElementById("header-title");
+// let header = document.getElementById("main-header");
 // console.log(headerTitle.textContent);
 // console.log(headerTitle.innerText);
 // headerTitle.innerHTML = "<h4>changing</h4>";
-header.style.borderBottom = "solid 2px black";
+// header.style.borderBottom = "solid 2px black";
 
 /* ******************* getElementsByClassName ******************************************* */
-let items = document.getElementsByClassName("list-group-item");
+// let items = document.getElementsByClassName("list-group-item");
 // console.log(items);
 // console.log(items[1]);
 // items[1].style.fontWeight = "bold";
@@ -29,7 +29,7 @@ let items = document.getElementsByClassName("list-group-item");
 // }
 
 /* ******************* document.getElementsByTagName  ************************************ */
-let li = document.getElementsByTagName("li");
+// let li = document.getElementsByTagName("li");
 // console.log(li);
 // console.log(li[1]);
 
@@ -58,11 +58,31 @@ let li = document.getElementsByTagName("li");
 
 /* ******************* document.querySelector  ************************************ */
 
-let titles = document.querySelectorAll(".title");
-console.log(titles);
+// let titles = document.querySelectorAll(".title");
+// console.log(titles);
 
-let odd = document.querySelectorAll(".list-group-item:nth-child(odd)");
+// let odd = document.querySelectorAll(".list-group-item:nth-child(odd)");
 // odd.style.backgroundColor = "red";
-for (let li of odd) {
-  li.style.backgroundColor = "#f4f4f4";
-}
+// for (let li of odd) {
+//   li.style.backgroundColor = "#f4f4f4";
+// }
+
+/* ******************* Traversing DOM  ************************************ */
+
+// parentNode
+let items = document.querySelector("#items");
+// console.log(items.parentNode);
+
+// console.log(items.childNodes);
+// console.log(items.children);
+
+// for (let i of items.childNodes) {
+//   console.log(i);
+// }
+
+// for (let i of items.children) {
+//   console.log(i);
+// }
+
+console.log(items.firstElementChild);
+console.log(items.firstChild);
