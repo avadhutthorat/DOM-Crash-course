@@ -86,3 +86,5 @@ let items = document.querySelector("#items");
 
 console.log(items.firstElementChild);
 console.log(items.firstChild);
+
+console.log(items);
