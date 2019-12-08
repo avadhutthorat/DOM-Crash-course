@@ -91,3 +91,23 @@ let items = document.querySelector("#items");
 // console.log(items.nextSibling);
 // console.log(items.nextElementSibling);
 // previousSibling and previousElementSibling
+
+/* **************** create element ************************************* */
+
+// let newDiv = document.createElement("div");
+// let newDiv1 = document.createElement("div");
+// newDiv1.className = "newDiv1";
+// newDiv.className = "Hello my";
+// newDiv.id = "hello 1";
+// newDiv.classList = "new button";
+// let newText = document.createTextNode("This is text");
+// newDiv.appendChild(newText);
+// newDiv1.append(newDiv);
+// console.log(newDiv1);
+
+// add div to DOM
+
+// let container = document.querySelector(".container");
+// let header = document.querySelector("#header-title");
+
+// container.insertBefore(newDiv1, header);
