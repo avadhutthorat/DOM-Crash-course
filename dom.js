@@ -84,7 +84,10 @@ let items = document.querySelector("#items");
 //   console.log(i);
 // }
 
-console.log(items.firstElementChild);
-console.log(items.firstChild);
+// console.log(items.firstElementChild);
+// console.log(items.firstChild);
+// lastChild and lastElementChild
 
-console.log(items);
+// console.log(items.nextSibling);
+// console.log(items.nextElementSibling);
+// previousSibling and previousElementSibling
